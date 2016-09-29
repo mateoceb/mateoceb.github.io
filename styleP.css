@@ -1,0 +1,61 @@
+body {
+	background-image: url('images/ni.jpg');
+	color: white;
+	background-size: cover;
+}
+
+h1 {
+	font-family: SaucerBB;
+	text-align: center;
+}
+
+@font-face{
+	font-family: SaucerBB;
+	src: url(SaucerBB.ttf);
+	font-family: Good-Times;
+	src: url(good-times.ttf);
+	font-family: Still-Time;
+	src: url(still time.ttf);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+
+}
+
+p {
+	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-family: SaucerBB;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 40%
+}

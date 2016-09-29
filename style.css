@@ -1,0 +1,80 @@
+body {
+	background-image: url('images/ni.jpg');
+	color: white;
+	background-size: cover;
+}
+
+h1 {
+	font-family: SaucerBB;
+	text-align: center;
+}
+
+img {
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	border-radius: 80%;
+}
+ 
+div {
+	text-align: center-right;
+	text-align: center;
+	font-size: 2em;
+	font-family: SaucerBB;
+}
+
+@-webkit-keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {border: 15px solid lightblue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {border: 15px solid lightblue;}
+}
+
+@font-face{
+	font-family: SaucerBB;
+	src: url(SaucerBB.ttf);
+	font-family: Good Times;
+	src: url(good-times.ttf);
+	font-family: Still Time;
+	src: url(still time.ttf);
+}
+
+p {
+	font-family: Good-Times;
+	text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+
+}
