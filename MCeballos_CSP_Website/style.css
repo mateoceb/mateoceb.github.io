@@ -11,10 +11,7 @@ h1 {
 
 img {
 	display: block; 
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: auto;
+	margin: auto;
 	border-radius: 80%;
 }
  
