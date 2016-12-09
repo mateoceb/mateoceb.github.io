@@ -1,21 +1,16 @@
 body {
-	background-image: url('portfolio/ni.1.jpg');
+	background-image: url('images/ni.jpg';
 	color: white;
 	background-size: cover;
 }
-
 h1 {
 	font-family: SaucerBB;
 	text-align: center;
 }
 
-@font-face{
-	font-family: SaucerBB;
-	src: url(SaucerBB.ttf);
-	font-family: Good-Times;
-	src: url(good-times.ttf);
-	font-family: Still-Time;
-	src: url(still time.ttf);
+@font-face {
+	font-family: SaucerBB, Good-Times, Still-Time;
+	src: url(SaucerBB.ttf, good-times.ttf, still time.ttf);
 }
 
 ul {
@@ -41,7 +36,6 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
-
 }
 
 p {
